@@ -283,6 +283,10 @@ main .hero-img {
         justify-content: space-between;
     }
 
+    .menu-icon:hover {
+        cursor: pointer;
+    }
+
     main {
         display: none;
     }

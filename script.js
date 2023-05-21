@@ -1,8 +1,8 @@
 const navItems = document.querySelector('.nav-items')
 const featuresNav = document.querySelector('.features-nav-item')
-const featuresDropdown = document.getElementsByClassName('features-dropdown')[0]
+const featuresDropdown = document.querySelector('.features-dropdown')
 const companyNav = document.querySelector('.company-nav-item')
-const companyDropdown = document.getElementsByClassName('company-dropdown')[0]
+const companyDropdown = document.querySelector('.company-dropdown')
 const downArrowf = document.querySelector('.features')
 const downArrowc = document.querySelector('.company')
 
@@ -41,8 +41,8 @@ const featuresNavMobile = document.querySelector('.features-nav-mobile')
 const companyNavMobile = document.querySelector('.company-nav-mobile')
 const arrowMobileF = document.querySelector('.features-mobile')
 const arrowMobileC = document.querySelector('.company-mobile')
-const featuresDropdownMobile = document.getElementsByClassName('features-dropdown-mobile')[0]
-const companyDropdownMobile = document.getElementsByClassName('company-dropdown-mobile')[0]
+const featuresDropdownMobile = document.querySelector('.features-dropdown-mobile')
+const companyDropdownMobile = document.querySelector('.company-dropdown-mobile')
 
 featuresNavMobile.addEventListener('click', () => {
     featuresDropdownMobile.classList.toggle('active')
